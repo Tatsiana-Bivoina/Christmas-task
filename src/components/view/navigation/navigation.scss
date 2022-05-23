@@ -1,0 +1,41 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    position: relative;
+    display: block;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    transition: .3s;
+
+    &:hover {
+      color: #278D9F;
+    }
+  }
+
+  a:nth-child(3) {
+    margin-right: 0;
+  }
+}
+
+.start-page-link {
+  width: 48px;
+  height: 60px;
+  background-image: url("../../../assets/svg/tree.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    filter: invert(57%) sepia(100%) saturate(329%) hue-rotate(141deg) brightness(89%) contrast(90%);
+  }
+}
+

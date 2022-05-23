@@ -1,0 +1,46 @@
+.header-controls {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  width: 380px;
+  height: 40px;
+  padding: 5px 25px;
+  margin: 10px 0;
+  margin-right: 30px;
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  color: #fff;
+  font-size: 18px;
+  background-color: rgba(31, 112, 127, .3);
+  background-image: url('../../../assets/svg/search.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 330px center;
+  backdrop-filter: blur(6px);
+  outline: 0;
+}
+
+.select {
+  width: 48px;
+  height: 60px;
+  background-image: url('../../../assets/svg/ball-2.svg');
+  background-size: 48px 60px;
+  background-position: left -8px;
+  background-repeat: no-repeat;
+  transition: .3s;
+
+  span {
+    display: inline-block;
+    min-width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 4px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: #278D9F;
+  }
+}

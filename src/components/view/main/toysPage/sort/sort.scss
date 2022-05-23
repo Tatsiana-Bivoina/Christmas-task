@@ -1,0 +1,44 @@
+.sort-select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  width: 380px;
+  height: 40px;
+  padding: 5px 25px;
+  margin: 10px 0;
+  margin-bottom: 125px;
+  background-color: rgba(31, 112, 127, .3);
+  background-image: url('../../../../../assets/svg/arrow-down.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 340px center;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+
+  & option {
+    color: inherit;
+    background-color: #183E42;
+  }
+}
+
+.reset-filters,
+.reset-settings {
+  width: 250px;
+  height: 40px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+  background-color: rgba(31, 112, 127, .3);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}

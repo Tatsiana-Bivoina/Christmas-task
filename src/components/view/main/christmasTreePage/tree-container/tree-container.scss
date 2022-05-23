@@ -1,0 +1,43 @@
+.tree {
+  width: 115px;
+  height: 115px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, .5);
+  background-size: auto 110px;
+  transition: .5s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}
+
+.tree:nth-child(1) {
+  background-image: url("../../../../../assets/tree/1.png");
+}
+
+.tree:nth-child(2) {
+  background-image: url("../../../../../assets/tree/2.png");
+}
+
+.tree:nth-child(3) {
+  background-image: url("../../../../../assets/tree/3.png");
+}
+
+.tree:nth-child(4) {
+  background-image: url("../../../../../assets/tree/4.png");
+}
+
+.tree:nth-child(5) {
+  background-image: url("../../../../../assets/tree/5.png");
+}
+
+.tree:nth-child(6) {
+  background-image: url("../../../../../assets/tree/6.png");
+}
+
+@media all and (max-width: 1400px) {
+  .tree-container {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,26 @@
+.main-tree-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;  
+  background-image: url("../../../../../assets/bg/1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 140px);
+  height: 100%;
+  width: 800px;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.main-tree {
+  display: block;
+  width: 500px;
+  height: 714px;
+}
+
+@media all and (max-width: 1400px) {
+  .main-tree-container {
+    width: 95%;
+  }
+}

@@ -1,0 +1,14 @@
+@import "~normalize.css";
+@font-face {
+  font-family: "Neucha";
+  src: url("./assets/fonts/Neucha-Regular.ttf") format("truetype");
+}
+
+body {
+  height: 100vh;
+  max-width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}

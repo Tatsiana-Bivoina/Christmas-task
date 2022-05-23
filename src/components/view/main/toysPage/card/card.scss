@@ -1,0 +1,87 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 304px;
+  height: 280px;
+  padding: 0;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid #278D9F;
+  background-color: rgba(31, 112, 127, .3);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &.active .ribbon {
+    background: #CBB77A;
+  }
+
+  &.active .ribbon:after {  
+    border-left: 15px solid #CBB77A;
+  }
+}
+
+.card-title {
+  width: 100%;
+  font-size: 20px;
+  font-stretch: condensed;
+  padding-left: 10px;
+}
+
+.card-img {
+  width: 90px;
+  height: 112px;  
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.card-description {
+  max-width: 195px;
+  width: 60%;
+  margin-top: -20px; 
+  padding-left: 10px;
+  pointer-events: none;
+  line-height: 1;
+  user-select: none;
+
+  p {
+    span {
+      padding-left: 7px;
+    }
+  }
+}
+
+.ribbon {
+  position: absolute;
+  top: 210px;
+  width: 80px;
+  height: 40px;
+  background: #24C5DB;
+  left: -8px;
+
+  &::before, 
+  &::after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+  }
+
+  &:before {
+    border-bottom: 8px solid #14455b;
+    border-left: 8px solid transparent;
+    top: -8px;
+  }
+
+  &:after {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 15px solid #24C5DB;
+    right: -15px;
+  }
+}
+
+.card.active .ribbon:after {  
+  border-left: 15px solid #CBB77A;
+}

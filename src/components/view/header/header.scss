@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+  background-color: #121C1E;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+  height: 70px;
+  margin: 0 auto;
+}

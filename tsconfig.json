@@ -1,0 +1,22 @@
+{
+  "include": [
+    "./src/",
+    "index.d.ts"
+  ],
+  "exclude": [
+    "node_modules/*", "dist"
+  ],
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "ES5",
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strict": true,
+    "esModuleInterop": true,
+  },
+}

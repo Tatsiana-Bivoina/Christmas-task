@@ -1,0 +1,28 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  max-width: 410px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.filters, 
+.range, 
+.sort {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(31, 112, 127, .3);
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
+}
+
+.controls-title {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+}

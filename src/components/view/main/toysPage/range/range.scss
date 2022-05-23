@@ -1,0 +1,52 @@
+.year-slider-container, 
+.count-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.count-slider-container {
+  margin-bottom: 35px;
+}
+
+.count-slider, 
+.year-slider {
+  display: inline-block;
+  height: 6px !important;
+  width: 170px;
+}
+
+output {
+  margin: 10px 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  height: 40px;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid #278D9F;
+}
+
+.noUi-horizontal {
+  .noUi-handle {
+    width: 20px !important;
+    height: 20px !important;
+    top: -8px !important;
+    right: -10px !important;
+    border-radius: 50%;
+  }
+}
+
+.noUi-handle {
+  &:before, 
+  &:after {
+    height: 10px !important;
+    left: 7px !important;
+    top: 5px !important;
+  }
+
+  &:after {
+    left: 10px !important;
+  }
+}
