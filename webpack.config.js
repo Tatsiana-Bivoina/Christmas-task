@@ -13,6 +13,7 @@ const baseConfig = {
     main: path.resolve(__dirname, 'src/index.ts'),
   },
   output: {
+    publicPath: 'https://Tatsiana-Bivoina.github.io/Christmas-task',
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
     assetModuleFilename: '[path][hash][ext][query]',

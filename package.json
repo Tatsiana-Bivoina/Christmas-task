@@ -7,6 +7,7 @@
   "scripts": {
     "start": "webpack serve --open --config ./webpack.config.js --env mode=dev",
     "build": "webpack --config ./webpack.config.js --env mode=prod",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext .ts"
   },
   "repository": {
@@ -51,6 +52,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "normalize.css": "^8.0.1",
     "nouislider": "^15.6.0"
   }
